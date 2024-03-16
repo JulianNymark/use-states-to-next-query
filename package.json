@@ -1,0 +1,30 @@
+{
+  "name": "use-states-to-next-query",
+  "version": "1.0.2",
+  "description": "(simple!) React hook to synchronize Next.useRouter() Query with React.useState()",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc -p ."
+  },
+  "keywords": [
+    "next",
+    "react",
+    "useRouter",
+    "useState",
+    "query",
+    "hook",
+    "state",
+    "query parameters"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "next": "^14.1.3",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "type": "module"
+}
